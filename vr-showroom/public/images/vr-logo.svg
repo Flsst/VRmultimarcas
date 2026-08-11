@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" width="120" height="120">
+  <defs>
+    <linearGradient id="vrGold" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DEC783"/>
+      <stop offset="35%" stop-color="#C6A354"/>
+      <stop offset="65%" stop-color="#E8D493"/>
+      <stop offset="100%" stop-color="#A9862F"/>
+    </linearGradient>
+    <linearGradient id="vrSheen" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F4E7B8"/>
+      <stop offset="50%" stop-color="#C6A354"/>
+      <stop offset="100%" stop-color="#8F6E28"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#vrGold)" strokeWidth="11" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M20 28 L60 94 L100 28"/>
+    <path d="M66 34 L66 92"/>
+    <path d="M64 34 C 86 34 96 46 96 60 C 96 74 84 84 66 84"/>
+    <path d="M78 66 L102 92"/>
+  </g>
+</svg>

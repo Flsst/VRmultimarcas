@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="lojag" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#141919"/>
+      <stop offset="100%" stop-color="#0B0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#lojag)"/>
+  <rect x="160" y="240" width="880" height="520" fill="#0B0D0D" stroke="#232929" stroke-width="4"/>
+  <rect x="160" y="240" width="880" height="3" fill="#C6A354" opacity="0.8"/>
+  <rect x="540" y="420" width="200" height="340" fill="#111414" stroke="#232929" stroke-width="3"/>
+  <rect x="620" y="520" width="40" height="240" fill="#0B0D0D" stroke="#C6A354" stroke-width="3"/>
+  <rect x="180" y="320" width="160" height="180" fill="#111414" stroke="#232929" stroke-width="3"/>
+  <rect x="860" y="320" width="160" height="180" fill="#111414" stroke="#232929" stroke-width="3"/>
+  <g stroke="#2E3535" stroke-width="6">
+    <path d="M200 420 L320 420 M200 440 L320 440 M200 460 L320 460"/>
+    <path d="M880 420 L1000 420 M880 440 L1000 440 M880 460 L1000 460"/>
+  </g>
+  <text x="600" y="120" text-anchor="middle" font-family="Archivo, sans-serif" font-weight="700" font-size="56" letter-spacing="14" fill="#F4F2EC">VR</text>
+  <text x="600" y="170" text-anchor="middle" font-family="Archivo, sans-serif" font-size="16" letter-spacing="6" fill="#A5A7A3">MULTIMARCAS PÁDUA</text>
+</svg>

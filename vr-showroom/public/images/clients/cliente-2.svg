@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" fill="none">
+  <defs>
+    <linearGradient id="c2" x1="0" y1="0" x2="600" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#141919"/>
+      <stop offset="100%" stop-color="#0A0C0C"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#c2)"/>
+  <ellipse cx="300" cy="620" rx="200" ry="40" fill="#000" opacity="0.5"/>
+  <g>
+    <circle cx="240" cy="540" r="70" fill="none" stroke="#2E3535" stroke-width="12"/>
+    <circle cx="240" cy="540" r="45" fill="none" stroke="#3A4343" stroke-width="2"/>
+    <circle cx="240" cy="540" r="16" fill="none" stroke="#C6A354" stroke-width="3"/>
+    <circle cx="420" cy="540" r="70" fill="none" stroke="#2E3535" stroke-width="12"/>
+    <circle cx="420" cy="540" r="45" fill="none" stroke="#3A4343" stroke-width="2"/>
+    <circle cx="420" cy="540" r="16" fill="none" stroke="#C6A354" stroke-width="3"/>
+    <path d="M180 430 L280 380 L380 400 L330 470 L240 480 L180 430 Z" fill="#151919" stroke="#2E3535" stroke-width="2"/>
+  </g>
+  <text x="300" y="740" text-anchor="middle" font-family="Archivo, sans-serif" font-size="13" letter-spacing="4" fill="#A5A7A3">MOTO NOVA</text>
+</svg>
