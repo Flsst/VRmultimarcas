@@ -21,7 +21,7 @@ export const motorcycles: Motorcycle[] = [
     model: '175 EFI',
     name: 'SHI 175 EFI',
     displayNumber: '175',
-    image: '/images/motorcycles/shi-175-efi.svg',
+    image: '/images/motorcycles/shi-175-efi.png?v=2',
     specs: [
       { label: 'CC', value: '175' },
       { label: 'INJEÇÃO', value: 'EFI' },
@@ -35,7 +35,7 @@ export const motorcycles: Motorcycle[] = [
     model: '125 EFI',
     name: 'JET 125 EFI',
     displayNumber: '125',
-    image: '/images/motorcycles/jet-125-efi.svg',
+    image: '/images/motorcycles/jet-125-efi.png?v=2',
     specs: [
       { label: 'CC', value: '125' },
       { label: 'INJEÇÃO', value: 'EFI' },
@@ -49,7 +49,7 @@ export const motorcycles: Motorcycle[] = [
     model: '175 SS EFI',
     name: 'SHI 175 SS EFI',
     displayNumber: '175',
-    image: '/images/motorcycles/shi-175-ss-efi.svg',
+    image: '/images/motorcycles/shi-175-ss-efi.png?v=2',
     specs: [
       { label: 'CC', value: '175' },
       { label: 'INJEÇÃO', value: 'EFI' },
@@ -63,7 +63,7 @@ export const motorcycles: Motorcycle[] = [
     model: '200 EFI',
     name: 'STORM 200 EFI',
     displayNumber: '200',
-    image: '/images/motorcycles/storm-200-efi.svg',
+    image: '/images/motorcycles/storm-200-efi.png?v=2',
     specs: [
       { label: 'CC', value: '200' },
       { label: 'INJEÇÃO', value: 'EFI' },

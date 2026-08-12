@@ -1,6 +1,10 @@
 import { Reveal } from '../Reveal'
 import { detailItems } from '../../data/details'
 
+const left = detailItems[0]
+const center = detailItems[1]
+const right = detailItems[2]
+
 export function Details() {
   return (
     <section className="section details" id="detalhes">
@@ -18,15 +22,20 @@ export function Details() {
         </h2>
       </div>
 
-      <div className="triptych" aria-label="Detalhes das motocicletas">
-        <Reveal variant="left" delay={100} className="triptych-side">
-          <img src={detailItems[0].image} alt="Detalhe da roda" draggable="false" />
+      <div className="detail-stage" aria-label="Detalhes das motocicletas">
+        <Reveal variant="left" delay={120} className="detail-stage-side detail-stage-side-left">
+          <img src={left.image} alt={`Detalhe — ${left.label}`} draggable="false" loading="lazy" />
+          <span className="detail-stage-label">{left.label}</span>
         </Reveal>
-        <Reveal variant="clip" className="triptych-center">
-          <img src={detailItems[1].image} alt="Detalhe do motor" draggable="false" />
+
+        <Reveal variant="clip" className="detail-stage-center">
+          <img src={center.image} alt={`Detalhe — ${center.label}`} draggable="false" loading="lazy" />
+          <span className="detail-stage-label">{center.label}</span>
         </Reveal>
-        <Reveal variant="right" delay={100} className="triptych-side">
-          <img src={detailItems[2].image} alt="Detalhe do farol" draggable="false" />
+
+        <Reveal variant="right" delay={120} className="detail-stage-side detail-stage-side-right">
+          <img src={right.image} alt={`Detalhe — ${right.label}`} draggable="false" loading="lazy" />
+          <span className="detail-stage-label">{right.label}</span>
         </Reveal>
       </div>
 

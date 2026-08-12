@@ -37,10 +37,12 @@ function ShowroomSlide({ bike, entering, leaving, intro = false, dir, onTransiti
           {bike.displayNumber}
         </div>
         <img
-          className="slide-bike-img"
+          className={`slide-bike-img${bike.id === 'jet-125-efi' ? ' bike-scale-jet' : ''}`}
           src={bike.image}
           alt={`Motocicleta ${bike.name}`}
           draggable="false"
+          loading={bike.id === motorcycles[0].id ? 'eager' : 'lazy'}
+          fetchPriority={bike.id === motorcycles[0].id ? 'high' : 'auto'}
         />
       </div>
 
@@ -110,6 +112,13 @@ export function Showroom() {
     const t = setTimeout(handleIntroEnd, 1700)
     return () => clearTimeout(t)
   }, [handleIntroEnd])
+
+  useEffect(() => {
+    motorcycles.forEach((bike) => {
+      const img = new Image()
+      img.src = bike.image
+    })
+  }, [])
 
   const handleTouchStart = (e: React.TouchEvent) => {
     touchStartX.current = e.touches[0].clientX
